@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.1.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+.calculadora {
+    
+    width:50%;
+    height:auto;
+    padding:10px 0;
+    margin: auto;
+    /* background:#232323; */
+    background-color:#0d072b;
+    
+    
+    overflow: hidden;
+    text-align: center;
+}
+.resultadosR{
+    color: white;
+    font-size: 20px;
+}
+.Historial{
+    color: white;
+    font-size: 18px;
+}
+
+.pantalla {
+    width:50%;
+    height:93px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 21px;
+    padding-right: 21px;
+    
+    color:#f5fffe;
+    text-align: right;
+    font-size: 3.5em;
+    letter-spacing: 3px;
+    overflow:hidden;
+  
+    
+    background: transparent;
+   -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.botones {
+    padding:0;
+    width:423px;
+    margin:auto;
+    overflow: hidden;
+    list-style: none;
+    height: 394px;
+}
+
+.botones li {
+     display:inline;
+     float:left;
+     padding:0px;
+     margin-right:13px;
+     margin-bottom:10px;
+}
+
+.botones li:nth-child(4n) {
+    margin-right:0;
+}
+
+.botones a {
+    display:block;
+    width:95px;
+    height:68px;
+    padding:18px 0 12px;
+    color:#f5fffe !important;
+    font-family: "Myriad Pro", Arial, sans-serif;
+    font-size:1.6em;
+    font-weight: 500;
+    letter-spacing: -2px;
+    background-color:#4b485e;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-shadow:#000 0px -1px 0px;
+    
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    cursor: pointer;
+}
+
+.botones a:active {
+    /* box-shadow: inset rgba(0,0,0,0.5) 0px 2px 8px;
+    background-image:-moz-linear-gradient(top, #2f2f2f 0%, #363636 100%);
+    background-image:-webkit-linear-gradient(top, #2f2f2f 0%, #363636 100%);
+    background-image:linear-gradient(top, #2f2f2f 0%, #363636 100%); */
+    background-color: #7d63ff;
+}
+
+.tall {
+    height:70px !important;
+}
+
+.wide {
+    width:150px !important;
+}
+
+.shift {
+    margin-top:-78px;
+}
