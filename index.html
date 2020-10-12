@@ -11,7 +11,7 @@
 
 </head>
 
-<body>
+<body onkeypress="undirteclado(event)">
 
 <div class="container">
     <div class="row">
@@ -19,28 +19,30 @@
             <div class="calculadora">
                 <div class="pantalla" id="screen"></div>
                 <ul id="buttons" class="botones">
-                    <li><a href="#" data-key="clear" style="font-weight: 400;">AC</a></li>
-                    <li><a href="#" data-key="-">-</a></li>
-                    <li><a href="#" data-key="/">/</a></li>
-                    <li><a href="#" data-key="*">x</a></li>    
-                    <li><a href="#" data-key="7">7</a></li>
-                    <li><a href="#" data-key="8">8</a></li>
-                    <li><a href="#" data-key="9">9</a></li>
-                    <li><a href="#" data-key="-">-</a></li>
-                    <li><a href="#" data-key="4">4</a></li>
-                    <li><a href="#" data-key="5">5</a></li>
-                    <li><a href="#" data-key="6">6</a></li>
-                    <li><a href="#" data-key="+">+</a></li>
-                    <li><a href="#" data-key="1">1</a></li>
-                    <li><a href="#" data-key="2">2</a></li>
-                    <li><a href="#" data-key="3">3</a></li>
-                    <li><a href="#" data-key="equal" class="equal tall">=</a></li>
-                    <li><a href="#" style="position: relative;top:74px" data-key="0" class="wide shift">0</a></li>
-                    <li><a href="#" style="position: relative;top:74px" data-key="." class="shift"><i class="fas fa-circle" style="font-size: 8px;position: absolute;bottom:30px;left:44px"></i></a></li>
-                    <li><a href="#" style="position: relative;top:74px" data-key="." class="shift">%</a></li>
+                    <li><button data-key="clear" style="font-weight: 400;">AC</button></li>
+                    <li><button data-key="-">-</button></li>
+                    <li><button data-key="/">/</button></li>
+                    <li><button data-key="*">x</button></li>    
+                    <li><button data-key="7">7</button></li>
+                    <li><button data-key="8">8</button></li>
+                    <li><button data-key="9">9</button></li>
+                    <li><button data-key="-">-</button></li>
+                    <li><button data-key="4">4</button></li>
+                    <li><button data-key="5">5</button></li>
+                    <li><button data-key="6">6</button></li>
+                    <li><button data-key="+">+</button></li>
+                    <li><button data-key="1">1</button></li>
+                    <li><button data-key="2">2</button></li>
+                    <li><button data-key="3">3</button></li>
+                    <li><button data-key="equal" class="equal tall">=</button></li>
+                    <li><button style="position: relative;top:74px" data-key="0" class="wide shift">0</button></li>
+                    <li><button style="position: relative;top:74px" data-key="." class="shift"><i class="fas fa-circle" style="font-size: 8px;position: absolute;bottom:30px;left:44px"></i></button></li>
                 </ul>
                 <p class="resultadosR">Resultados Recientes</p>
-                <span class="Historial">92.5 X 4 = 368.8</span>
+                <span class="Historial" id="ListaHistorial">
+
+
+                </span>
             </div>
         </div>
     </div>
